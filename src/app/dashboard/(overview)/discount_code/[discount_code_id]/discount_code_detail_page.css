@@ -1,0 +1,75 @@
+#detail-page-background {
+  background-color: var(--light-green)!important;
+}
+
+.discount-card-title-section {
+  border-top: 2px dashed var(--accent-pink) !important;
+  padding-top: 8px;
+  padding-bottom: 0px;
+  align-items: center;
+  letter-spacing: 0.1em;
+}
+
+#discount-point {
+  display: flex;
+  justify-content: center!important;
+  align-items: center !important;
+  margin: 8px 0px!important;
+  width: 100%;
+}
+
+#discount-card-title {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  margin-right: 5px;
+  font-size: 21px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+#discount-point-title {
+  font-size: 16px;
+  font-weight: 800;
+  text-align: left;
+  margin-right: 5px;
+}
+
+#discount-code {
+  background: var(--background-light-yellow);
+  border: 2px solid var(--accent-amber);
+  padding: 5px 24px;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 8px auto;
+} 
+
+#discount-valid-time {
+  color: var(--text-gray);
+  font-size: 100%;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+#code-content {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.8;
+  text-align: justify;
+  color: var(--text-gray);
+}
+
+#tNc {
+  color: var(--dark)!important;
+  position: relative;
+  margin: 5% 10%;
+  text-align: justify;
+  line-height: 1.75;
+}

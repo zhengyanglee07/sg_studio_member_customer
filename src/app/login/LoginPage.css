@@ -1,0 +1,259 @@
+  .login-container {
+    min-height: 89vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  
+  #backdrop-image {
+    object-fit: cover;
+    object-position: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .content-container {
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+  }
+  
+  .logo-section {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo-wrapper {
+    position: relative;
+  }
+  
+  #logo-image {
+    object-fit: contain;
+    min-height: 200px;
+    width: auto;
+  }
+  
+  .form-container {
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    margin: 12px 0px 0px 0px;
+    background-color: transparent;
+    border-color: var(--border-amber);
+    border-radius: 5px !important;
+    border-width: 4px !important;
+    box-shadow: var(--box-shadow-light);
+  }
+  
+  .login-form {
+    background-color: var(--background-light);
+    padding-bottom: 50px !important;
+    border-radius: 5px;
+    border-color: var(--border-amber);
+    border-style: solid;
+    border-width: 5px;
+    padding-top: 55px !important;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+  }
+  
+  .form-title > div > div > div > div {
+    display: flex;
+  }
+  
+  .form-title > div > div > div > div > span {
+    width: 100%;
+    font-size: 36px;
+    text-align: right;
+    font-weight: 900;
+    margin: 0px 8px 0px 24px;
+    text-shadow: 0px 0px 1px var(--text-color);
+  }
+  
+  .ant-form-item {
+    padding: 0px!important;
+  }
+  
+  /* Input field styles */
+  .input-field {
+    height: 40px;
+    /* border-color: var(--text-dark-gray); */
+    --placeholder-color: var(--text-dark-gray);
+    width: 100%;
+  }
+  
+  .input-field-password svg {
+    fill: var(--army-green) !important;
+  }
+  
+  .input-field::placeholder {
+    color: var(--text-gray);
+  }
+  
+  .input-field-password {
+    height: 40px;
+    /* border-color: var(--text-dark-gray); */
+    --placeholder-color: var(--text-dark-gray);
+    width: 100%;
+    padding: 0 12px;
+    border-radius: 0px !important;
+  }
+  
+  .input-field-password > input::placeholder {
+    color: var(--text-gray);
+  }
+  
+  input::placeholder {
+    color: var(--text-gray) !important;
+    font-family: var(--font-family) !important;
+    font-size: var(--font-size) !important;
+    font-style: normal;
+    font-weight: var(--font-weight);
+    line-height: var(--line-height);
+    height: 52px !important;
+  }
+  
+  .password-toggle {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+  }
+  
+  .login-button-container {
+    display: flex;
+    justify-content: right;
+    height: 40px;
+  }
+  
+  .login-button-container button {
+    padding: 4px 10px;
+  }
+  
+  #login-btn {
+    background: var(--button-two);
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 1.5em;
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+  }
+  
+  #login-svg {
+    padding: 10px 0;
+  }
+  
+  #login-svg > svg {
+    position: relative;
+    left: 2px;
+    min-height: 20px;
+    min-width: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 10px 0px;
+  }
+  
+  #create-account {
+    background-color: var(--dark);
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+    padding: calc(2vh + env(safe-area-inset-bottom, 0)) 0 calc(3vh + env(safe-area-inset-bottom, 0)) 0;
+    font-size: 32px;
+    text-align: center;
+  }
+  
+  .bottom-line {
+    width: 35%;
+    height: 4px;
+    background-color: var(--text-white);
+    margin-top: 5px;
+    margin: 5px auto 0;
+  }
+  
+  .create-account-button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px 16px;
+  }
+  
+  .create-account-button:hover {
+    text-decoration: underline;
+  }
+  
+  #signup-button {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    color: var(--text-white);
+  }
+  
+  .ant-input-outlined {
+    /* border-color: var(--text-dark-gray) !important; */
+    display: flex;
+    height: 44px;
+    padding: 12px;
+    align-items: center;
+    background: var(--text-white);
+  }
+  
+  .ant-input {
+    color: var(--text-gray) !important;
+    font-family: var(--font-family) !important;
+    font-size: var(--font-size) !important;
+    font-weight: var(--font-weight);
+    line-height: var(--line-height);
+    letter-spacing: -0.32px;
+    border-radius: 0px !important;
+  }
+
+  @media (max-height: 680px) {
+    .login-container {
+      transform: scale(0.95);
+      transform-origin: top center;
+    }
+
+    #create-account {
+      font-size: 24px !important;
+    }
+
+    .form-title > div > div > div > div > span {
+      font-size: 24px !important;
+    }
+
+    #login-btn {
+      padding: 0.8em;
+      font-size: 12px;
+    }
+
+    input, .ant-input-password {
+      height: 36px !important;
+      font-size: 12px;
+    }
+  }

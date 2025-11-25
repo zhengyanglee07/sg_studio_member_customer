@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  background-color: var(--background-green);
+}
+
+#detail-page-background {
+  background-color: var(--light-green)!important;
+}
+  
+  #back-btn {
+    color: var(--text-dark-gray);
+  }
+  
+  .redeem-item-detail-card {
+    box-shadow: var(--box-shadow);
+    border-radius: 0px !important;
+  }
+
+  #card-title-redemption {
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    text-align: left;
+  }
+  
+  #valid-time-redemption {
+    color: var(--text-gray);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    text-align: left;
+  }
+
+  .membership-limit {
+    font-weight: 500;
+    font-size: 10px;
+    margin-top: 4px;
+    color: var(--light-brown);
+    display: flex;
+    align-items: center!important;
+    justify-content: flex-end;
+  }
+  
+  .membership-tier {
+    color: var(--accent-pink);
+  }
+  
+  .card-title-section {
+    border-bottom: 2px dashed var(--primary-blue) !important;
+  }
+  
+  #point-section {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  #point-title {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: right;
+  }
+  
+  #points-text {
+    color: var(--brown);
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+  }
+  
+  #point-image {
+    margin-left: 5px;
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  #redeem-btn {
+    box-shadow: var(--box-shadow);
+    background: var(--dark);
+    border-radius: 0px;
+    min-width: 42%;
+    height: 100%;
+    padding: 8px 14px;
+  }
+  
+  #redeem-btn > span > svg {
+    color: var(--accent-amber) !important;
+    height: 1.5rem;
+    width: auto;
+  }
+  
+  #tNc {
+    color: var(--dark)!important;
+    position: relative;
+    margin: 5% 10%;
+    text-align: justify;
+    line-height: 1.75;
+  }
+  
+  #redeem-success-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    padding: 0 16px;
+    text-align: center;
+  }
+  
+  #redeem-success-card {
+    border-radius: 0px;
+    box-shadow: var(--box-shadow);
+    background: var(--text-white);
+    padding: 24px;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #success-card-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding-bottom: 14px;
+  }
+  
+  #redeem-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #redeem-btn-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  

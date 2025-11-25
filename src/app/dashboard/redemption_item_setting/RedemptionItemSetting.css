@@ -1,0 +1,237 @@
+.redemption-backdrop-parent {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: var(--background-green)!important;
+  }
+  
+  #redemption-page {
+    padding-top: 10%;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 8%;
+  }
+  
+  .card {
+    position: relative;
+    background-color: transparent !important;
+    border-width: 0 !important;
+    height: 265px;
+  }
+  
+  .card > div {
+    padding: 0px !important;
+    height: inherit;
+  }
+
+  .card-points-center {
+    text-align: center;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #eee;
+  }
+  
+  #card-bg-image {
+    position: absolute;
+    width: 100%;
+    height: 265px;
+    display: flex;
+    padding-bottom: 0;
+    background: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  }
+  
+  #card-row {
+    position: relative;
+    z-index: 1;
+    height: inherit;
+    display: flex !important;
+    flex-flow: row wrap !important;
+    align-content: center !important;
+    justify-content: center !important;
+    padding: 2.5rem;
+  }
+  
+  .card-col {
+    margin: 5px;
+    align-self: center;
+  }
+  
+  #point-icon {
+    height: 15px;
+    width: auto;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+
+  .card-points-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--army-green);
+  }
+  
+  #card-point {
+    text-align: left;
+    font-size: 42px;
+    font-weight: 600;
+    color: var(--army-green);
+    line-height: 2.75rem;
+    padding-bottom: 12px;
+  }
+
+  #card-point-two {
+    text-align: left;
+    font-size: 27px;
+    font-weight: 600;
+    color: var(--army-green);
+    line-height: 2rem;
+  }
+
+  #card-point-three {
+    text-align: left;
+    font-size: 27px;
+    font-weight: 600;
+    color: var(--accent-orange);
+    line-height: 2rem;
+  }
+  
+  #point-info-container {
+    padding: 10px;
+    border: 3px solid var(--accent-amber);
+    background: var(--text-white);
+    opacity: 0.7;
+    height: fit-content;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: var(--light-green);
+    border-radius: 12px;
+  }
+  
+  .progress-bar-fill {
+    height: 100%;
+    background-color: var(--accent-amber);
+    border-radius: 12px;
+    transition: width 0.5s ease-in-out;
+  }
+
+  .tab-parent.ant-tabs {
+    padding: 0.25rem 1.25rem 0 1.25rem !important;
+  }
+  
+  .ant-tabs .ant-tabs-tab + .ant-tabs-tab {
+    margin-left: 14px !important;
+    margin-bottom: 0px;
+  }
+  
+  .ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: var(--army-green) !important;
+    font-weight: 750;
+    font-size: 17px;
+    text-decoration: none;
+  }
+  
+  .ant-tabs-tab-btn {
+    color: var(--text-white);
+    font-weight: 700;
+    font-size: 16px;
+  }
+  
+  .ant-tabs-ink-bar {
+    background: none !important;
+    height: 0 !important;
+  }
+  
+  .filled-star {
+    color: var(--accent-amber) !important;
+  }
+  
+  #redemption-item-list {
+    margin: 0px 5vw;
+    margin-bottom: 10vw
+  }
+
+  .redemption-item-disabled {
+    opacity: 0.8;
+    pointer-events: auto;
+    cursor: pointer;
+  }
+  
+  .available-redemption-item {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: var(--text-white);
+    padding: 8px 12px !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 14px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  }
+  
+  .available-redemption-item .ant-list-item-meta {
+    display: flex !important;
+    align-items: center !important;
+    line-height: 0.5;
+  }
+  
+  .available-redemption-item-meta {
+    margin: 0 !important;
+    margin-bottom: -4px !important;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .available-redemption-item-main {
+    margin-bottom: -12px !important;
+  }
+  
+  .available-redemption-item-title {
+    margin-top: 5px !important;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .available-redemption-item-description {
+    font-size: 0.95rem;
+    font-weight: normal;
+    color: var(--text-gray);
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .available-coupon-img {
+    border-radius: 0% !important;
+    width: 50px;
+    height: 50px;
+    padding-left: 10px !important;
+    align-self: center;
+  }
+  
+  .available-redemption-item .ant-list-item-extra {
+    margin: 0px !important;
+    display: flex;
+  }
+  
+  .available-item-details-btn {
+    border-width: 0 !important;
+    color: var(--accent-blue) !important;
+    padding: 4px 0px !important;
+  }
+  
+  .ant-list-vertical .ant-list-item .ant-list-item-meta .ant-list-item-meta-title {
+    margin-block-start: 0;
+    margin-block-end: 0px !important;
+    font-size: 1.15rem !important;
+    line-height: 0.5;
+  }

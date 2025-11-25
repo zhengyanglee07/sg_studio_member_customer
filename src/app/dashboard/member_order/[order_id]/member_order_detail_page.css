@@ -1,0 +1,81 @@
+.margin-btm {
+    padding: 15px 0;
+    border-bottom: 1px solid var(--background-light-gray); /* Replaced #EDEDED */
+  }
+  
+  .flex-space-between {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .normal-text {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    color: var(--text-dark-gray); /* Replaced #131313 */
+  }
+  
+  .bold-text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: var(--text-dark-gray); /* Replaced #131313 */
+  }
+  
+  .discount-code {
+    color: var(--accent-orange); /* Replaced #D74D03 */
+  }
+  
+  #order-summary {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    color: var(--primary-blue); /* Replaced #0B49A0 */
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    text-align: right;
+  }
+  
+  #total-unit-item {
+    text-align: left;
+    margin-right: 10vh;
+  }
+  
+  #point-earned-section {
+    margin-top: 20px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: 2px solid var(--accent-green); /* Replaced #62A02B */
+    color: var(--accent-green); /* Replaced #62A02B */
+    width: fit-content;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    text-align: left;
+    display: flex;
+  }
+  
+  #point-icon {
+    height: 3vh;
+    width: auto;
+    padding: 0 5px;
+    align-self: flex-end;
+  }
+  
+  #point-earned {
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+  
+  .order-list-details-item {
+    padding: 8px 14px !important;
+  }
+  

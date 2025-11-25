@@ -1,0 +1,164 @@
+  #signup-page-bg {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    top: 0;
+  }
+  
+  #login-container {
+    border: 5px solid var(--border-one);
+    border-radius: 8px;
+    padding: 30px;
+    background-color: var(--dark);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    margin-bottom: calc(8vh + env(safe-area-inset-bottom, 0));
+    padding-top: calc(20px + env(safe-area-inset-top, 0));
+    box-sizing: border-box;
+  }
+  
+  #signup-form-title {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    color: var(--text-white);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  #membi-logo {
+    height: 12vh;
+    width: auto;
+    position: absolute;
+    top: 0;
+    right: 12px;
+  }
+  
+  .form-item {
+    padding: 0 !important;
+    border-radius: 0px !important;
+  }
+  
+  .form-item label {
+    font-size: var(--font-size) !important;
+    font-weight: var(--font-weight);
+    color: var(--text-white) !important;
+  }
+  
+  .form-item-input {
+    padding: 10px !important;
+    border-radius: 0px !important;
+  }
+  
+  .signup-form-submit {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #signup-submit-btn {
+    background-color: var(--button-three);
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: var(--box-shadow);
+    color: var(--army-green);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    gap: 8px;
+  }
+  
+  #login-svg-link > svg {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #login-account {
+    background-color: var(--button-two);
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+    padding: calc(2vh + env(safe-area-inset-bottom, 0)) 0 calc(3vh + env(safe-area-inset-bottom, 0)) 0;
+    font-size: 32px;
+    text-align: center;
+  }
+  
+  #login-button {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    color: var(--white);
+  }
+
+  .ant-form-item{
+    padding: 0px!important;
+  }
+
+  .otp-modal-content {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: all 0.4s ease-in-out, transform 0.4s ease-in-out;
+  }
+  
+  .otp-modal-content.visible {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .signup-label {
+    font-weight: 600 !important;
+    color: #262626;
+  }
+  
+  .signup-tabs-tab {
+    color: #ffffff !important;
+    transition: color 0.3s;
+  }
+  
+  .signup-tabs-tab-active {
+    color: #fa8c16 !important;
+    font-weight: 600;
+    border-bottom: 2px solid #fa8c16;
+  }
+
+  .ant-tabs-ink-bar {
+    display: none !important;
+  }
+
+  .ant-form-item {
+    padding: 0px;
+  }
+
+  .otp-fullscreen-modal {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    top: 0 !important;
+    padding: 0 !important;
+  }
+
+  .otp-fullscreen-modal .ant-modal-content {
+    height: 100vh;
+    padding: 0;
+    background: transparent; /* optional, can match background color */
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .otp-modal-content {
+    position: fixed;
+    inset: 0;
+    padding: 0 24px;
+    overflow-y: auto;
+    background-color: var(--background-color);
+  }
+
+  #signup-back {
+    padding-top: 1.25rem;
+    left: 0;
+    position: relative;
+  }

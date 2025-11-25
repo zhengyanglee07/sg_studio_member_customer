@@ -1,0 +1,21 @@
+  #detail-page-background {
+    background-color: var(--light-green)!important;
+  }
+  
+  .expired-redemption-card {
+    box-shadow: var(--box-shadow);
+    border-radius: 0px !important;
+  }
+  
+  .expired-card-title-section {
+    border-bottom: 2px dashed var(--accent-red);
+  }
+  
+  #expired-time {
+    color: var(--accent-red);
+    font-size: 100%;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    text-align: left;
+  }
+  

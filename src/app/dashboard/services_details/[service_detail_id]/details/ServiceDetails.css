@@ -1,0 +1,134 @@
+#service-background {
+  background-color: var(--background-green)!important;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0px;
+  min-height: 100vh;
+  z-index: -1;
+}
+
+.service-container {
+  display: flex!important;
+  justify-content: center!important;
+  padding-top: 0.5rem!important;
+}
+
+.service-details-body{
+  background-color: var(--text-white);
+  border: 4px solid var(--background-light-gray);
+  border-radius: 40px 40px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+  padding: 0px 24px!important;
+  padding-bottom: 6vh!important;
+  min-height: 640px;
+  width: 100%;
+}
+
+.service-img-wrapper {
+  position: relative!important;
+  top: -24px!important;
+  margin-bottom: -20px!important;
+}
+
+.service-category-main-title{
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--army-green);
+}
+
+.service-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: var(--background-green);
+}
+
+.service-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.service-subtitle {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.price-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f9f9f9;
+  padding: 12px;
+  background-color: var(--light-green);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.price-option-one {
+  color: #5c3a2c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 24px;
+}
+
+.price-option-two {
+  color: #5c3a2c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 24px;
+}
+
+.label {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.price {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.note {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.np {
+  padding-top: 4px;
+  font-size: 11px;
+  font-weight: 500;
+  color: #888;
+}
+
+.description-tab{
+  color: white;
+  background: var(--background-green);
+  padding: 6px 24px;
+  padding-bottom: 8px;
+  border-radius: 20px;
+  font-weight: 600;
+  line-height: 1;
+  margin: 8px 0px;
+  align-self: flex-start;
+}
+
+.description-details{
+  color: var(--text-gray);
+  font-size: 15px;
+  border-radius: 20px;
+  line-height: 1.75;
+  text-align: justify;
+}

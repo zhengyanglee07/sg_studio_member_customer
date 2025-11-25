@@ -1,0 +1,129 @@
+#tier-bg {
+  background-color: var(--background-green);
+  position: fixed;
+  width: 100vw;
+  left: 0px;
+  min-height: 100vh;
+}
+
+#tierlist {
+  margin-top: 50px;
+}
+
+.ant-list .ant-list-item {
+  padding: 8px 0px !important;
+}
+
+.tierlist-item {
+  margin: 0 15px !important;
+}
+
+.whole-box {
+  display: flex;
+  font-family: var(--font-family);
+  padding: 20px 14px;
+  background-color: var(--text-white);
+  align-items: flex-start;
+  box-shadow: var(--box-shadow);
+}
+
+.tierlist-item:nth-child(1) .title {
+  color: var(--text-gray);
+}
+
+.tierlist-item:nth-child(2) .title {
+  color: var(--accent-blue);
+}
+
+.tierlist-item:nth-child(3) .title {
+  color: var(--accent-pink);
+}
+
+.tierlist-item:nth-child(4) .title {
+  color: var(--accent-purple);
+}
+
+.tierlist-item:nth-child(n+5) .title {
+  color: var(--fallback-red);
+}
+
+.icon-half {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.info-half {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  flex: 4;
+  display: flex;
+  align-items: flex-start;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.benefits-title {
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-decoration-skip-ink: none;
+}
+
+.filled-star {
+  color: var(--accent-amber) !important;
+  margin-right: 5px;
+}
+
+.benefit-list {
+  list-style-type: none;
+  padding-left: 24px;
+}
+
+.point {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-gray);
+  padding: 3px 0;
+}
+
+.tier-point-icon {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+}
+
+.point-txt {
+  color: var(--brown);
+  margin-left: 6px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.point-value {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.maintain-point {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-gray);
+  padding: 3px 0;
+}

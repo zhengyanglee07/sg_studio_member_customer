@@ -1,0 +1,215 @@
+#profile-bg-parent {
+    position: fixed;
+    width: 100vw;
+    left: 0px;
+    top: 0;
+    min-height: 100vh;
+  }
+  
+  #profile-star-bg {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    bottom: 0;
+    color: var(--dark) !important;
+  }
+  
+  #close-profile {
+    background: none;
+    border: none;
+    color: var(--dark);
+    min-width: 20px;
+    min-height: 25px;
+    font-size: 100%;
+  }
+  
+  #card-parent-profile {
+    background-color: var(--dark);
+    border: none;
+    margin: 20px 4vw;
+  }
+  
+  #card-parent-profile > div {
+    padding: 0;
+  }
+  
+  #card-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+  }
+
+  .page-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+  }
+
+  .profile-sec{
+    width: 100%;
+    background-color: var(--dark);
+    border-radius: 40px;
+    position: relative;
+    color: var(--text-white);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .profile-info-div{
+    padding: 0.45rem;
+    background-color: #A8B3AB40;
+    font-weight: 700;
+    font-size: 14px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 4px;
+  }
+
+  .avatar-wrapper {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .profile-img-change {
+    border-radius: 50%;
+  }
+
+  .member-info {
+    border-bottom: 2px solid white !important;
+    padding: 1.25rem 0;
+    margin: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+  }
+
+  .member-info .ant-row {
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .member-info .ant-col {
+    text-align: center;
+  }
+
+  .card-date-info{
+    font-size: 10px;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-avatarr img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card-name {
+    font-weight: 700;
+    font-size: 21px;
+    letter-spacing: 0.15rem;
+  }
+
+  .member-info-row{
+    padding-bottom: 8px;
+    text-align: center;
+    justify-content: center !important;
+    align-items: center !important; 
+  }
+
+  .member-info-center-col {
+    border-left: 1px solid var(--text-white);
+    border-right: 1px solid var(--text-white);
+  }
+
+  .member-info-one {
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  .member-info-two {
+    font-weight: 400;
+    font-size: 12px;
+  }
+  
+  #card-created-date {
+    font-size: 14px;
+    font-weight: var(--font-weight);
+    text-align: left;
+    color: var(--text-gray);
+  }
+  
+  .form-label label {
+    color: var(--text-white) !important;
+  }
+
+  .form-label input {
+    border-radius: 0px !important;
+  }
+
+  .ant-picker{
+    border-radius: 0px !important;
+    padding: 8px !important;
+  }
+
+  .input-pw{
+    border-radius: 0px !important;
+    padding: 8px !important;
+  }
+
+  .input-name{
+    padding: 8px !important;
+  }
+  
+  .form-label-text {
+    font-size: var(--font-size) !important;
+    font-weight: var(--font-weight);
+    text-align: left;
+    color: var(--text-dark-gray) !important;
+    border-radius: 0px;
+  }
+  
+  #change-pw-section {
+    font-size: 18px;
+    font-weight: 900;
+    padding-bottom: 8px;
+    text-align: left;
+    color: var(--text-white);
+    position: relative;
+    text-decoration: underline;
+  }
+
+  .ant-form-item{
+    margin-bottom: 10px!important;
+  }
+  
+  .submit-section {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #submit-btn {
+    min-width: 75px;
+    width: auto;
+    height: 100%;
+    padding: 8px 14px;
+    margin: 12px 0px;
+    background-color: var(--background-green);
+    color: var(--text-white);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 0;
+  }
+  
